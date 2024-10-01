@@ -74,7 +74,7 @@ country = st.selectbox(
     index = None
 
 )
-
+st.sidebar.title("Title of sidebar")
 if country:
     # set the text input
     city_name = st.text_input("City Name", value = None)
